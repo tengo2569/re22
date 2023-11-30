@@ -50,6 +50,7 @@ main {
     /* border: 1px solid white; */
     margin-top: 24px;
     margin-left: 24px;
+    overflow-x: hidden;
 }
 
 footer {
