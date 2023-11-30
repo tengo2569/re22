@@ -26,7 +26,7 @@ btn.addEventListener('click', function () {
     h2.innerHTML = "loading..."
   
 
-
+btn.setAttribute('disabled',true)
 
 
 })
