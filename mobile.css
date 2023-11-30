@@ -41,6 +41,9 @@ h1 {
     letter-spacing: 3.457px;
 }
 
+h1,h2{
+    user-select: none;
+}
 main {
     width: 295px;
     height: 132px;
