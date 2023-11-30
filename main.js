@@ -22,6 +22,7 @@ btn.addEventListener('click', function () {
     dice.classList.add("pause1")
     img.classList.add("pause1")
     h2.innerHTML = "loading..."
+  
 
 
 
