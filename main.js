@@ -3,7 +3,7 @@ const span = document.querySelector('.span');
 const h2 = document.querySelector('h2');
 const btn = document.querySelector('button');
 const img = document.querySelector('.img1')
-const svg = document.querySelector('.img2')
+const dice = document.querySelector('.img2')
 
 
 btn.addEventListener('click', function () {
@@ -19,7 +19,7 @@ btn.addEventListener('click', function () {
 
     btn.disabled = true;
     btn.style.cursor = 'not-allowed';
-    svg.classList.add("pause")
+    dice.classList.add("pause1")
     img.classList.add("pause1")
     h2.innerHTML = "loading..."
 
