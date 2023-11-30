@@ -20,13 +20,13 @@ btn.addEventListener('click', function () {
 
 
     
-    btn.style.cursor.color = "green";
+    btn.style.cursor = "allowed";
     dice.classList.add("pause1")
     img.classList.add("pause1")
     h2.innerHTML = "loading..."
   
 
-btn.setAttribute('disabled',true)
+
 
 
 })
