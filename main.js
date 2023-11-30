@@ -7,9 +7,11 @@ const dice = document.querySelector('.img2')
 
 
 btn.addEventListener('click', function () {
+    btn.disabled = true;
     fetch('https://api.adviceslip.com/advice')
         .then(res => res.json())
         .then(data => {
+              btn.disabled = false;
             const { id, advice } = data.slip;
 
             h2.textContent = advice;
@@ -17,7 +19,7 @@ btn.addEventListener('click', function () {
         })
 
 
-    btn.disabled = true;
+    
     btn.style.cursor = 'not-allowed';
     dice.classList.add("pause1")
     img.classList.add("pause1")
@@ -26,9 +28,5 @@ btn.addEventListener('click', function () {
 
 
 
-    setTimeout(function () {
-        btn.disabled = false;
-        btn.style.cursor = 'pointer';
-    }, 1000);
 
 })
