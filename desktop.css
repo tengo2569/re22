@@ -51,13 +51,11 @@
     }
 
 
-
     .pause1 {
-        animation-name: rotate;
+        animation-name: rotate 1s linear infinite;
         animation-duration: 1s;
         animation-timing-function: linear;
-        animation-iteration-count: infinite;
-      
+    
     }
 
     ::-webkit-scrollbar {
