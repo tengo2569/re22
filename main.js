@@ -26,6 +26,10 @@ btn.addEventListener('click', function () {
     h2.innerHTML = "loading..."
   
 
+ setTimeout(function () {
+        btn.disabled = false;
+        btn.style.cursor = 'pointer';
+    }, 1000);
 
 
 
